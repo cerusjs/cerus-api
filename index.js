@@ -7,8 +7,7 @@ module.exports = function() {
 	plugin.version = package["version"];
 	plugin.dependencies = [
 		"cerus-router",
-		"cerus-promise",
-		"cerus-settings"
+		"cerus-promise"
 	];
 
 	plugin.init_ = function(cerus) {
