@@ -10,7 +10,7 @@ module.exports = function() {
 		"cerus-promise"
 	];
 
-	plugin.init_ = function(cerus) {
+	plugin._init = function(cerus) {
 		api = new (require("./lib/api"))(cerus);
 	}
 
