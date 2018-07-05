@@ -1,0 +1,19 @@
+{
+	"name": "cerus-api",
+	"version": "0.1.2",
+	"description": "The api module for CerusJS",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cerusjs/cerus-api.git"
+	},
+	"author": "cerusjs",
+	"bugs": {
+		"url": "https://github.com/cerusjs/cerus-api/issues"
+	},
+	"scripts": {
+		"lint": "eslint lib/"
+	},
+	"homepage": "https://github.com/cerusjs/cerus-api",
+	"dependencies": {}
+}
